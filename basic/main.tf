@@ -35,7 +35,7 @@ resource "aws_key_pair" "basic" {
 
 # the basic security group for our deathstar consul hosts
 
-resource "aws_security_group" "deathstar-consul" {
+resource "aws_security_group" "basic" {
   name        = "basic"
   description = "basic sec profile"
 

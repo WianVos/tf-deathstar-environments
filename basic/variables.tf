@@ -19,6 +19,6 @@ variable "private_subnet_cidr" {
 }
 
 #number of consul servers
-variable "basic_server_count" {
+variable "basic_count" {
   default = 2
 }
